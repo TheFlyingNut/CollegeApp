@@ -1,9 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.Kartik.CollegeApp.Myapp">
+    package="com.alixumer.schoolapp.brain_school">
     <!-- Flutter needs it to communicate with the running application
          to allow setting breakpoints, to provide hot reload, etc.
     -->
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="16" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="16" />
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>

@@ -1,6 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.Kartik.CollegeApp.Myapp">
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    package="com.alixumer.schoolapp.brain_school">
    <application
         android:label="brain_school"
         android:icon="@mipmap/ic_launcher">
