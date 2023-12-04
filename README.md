@@ -1,4 +1,4 @@
-0# brain_school
+# brain_school
 
 school app for students
 
