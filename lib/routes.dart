@@ -9,6 +9,7 @@ import 'screens/fee_screen/fee_screen.dart';
 import 'screens/home_screen/home_screen.dart';
 import 'screens/my_profile/my_profile.dart';
 import 'package:brain_school/screens/Calendar_screen/calendar.dart';
+import 'package:brain_school/screens/Hotspot/Hotspot.dart';
 
 Map<String, WidgetBuilder> routes = {
   //all screens will be registered here like manifest in android
@@ -20,4 +21,5 @@ Map<String, WidgetBuilder> routes = {
   AssignmentScreen.routeName: (context) => AssignmentScreen(),
   DateSheetScreen.routeName: (context) => DateSheetScreen(),
   CalendarPage.routeName: (context) => CalendarPage(),
+  Hotspot.routeName: (context) => Hotspot(),
 };
