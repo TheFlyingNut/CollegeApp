@@ -1,4 +1,5 @@
 import 'package:brain_school/constants.dart';
+import 'package:brain_school/screens/Hotspot/Hotspot.dart';
 import 'package:brain_school/screens/assignment_screen/assignment_screen.dart';
 import 'package:brain_school/screens/datesheet_screen/datesheet_screen.dart';
 import 'package:brain_school/screens/fee_screen/fee_screen.dart';
@@ -95,7 +96,10 @@ class HomeScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
                         HomeCard(
-                          onPress: () {},
+                          onPress: () {
+                            Navigator.pushNamed(
+                                context, Hotspot.routeName);
+                          },
                           icon: 'assets/icons/quiz.svg',
                           title: 'Take Quiz',
                         ),
